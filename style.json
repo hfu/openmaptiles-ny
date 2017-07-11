@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "sources": {
+    "openmaptiles-ny": {
+      "type": "vector",
+      "tiles": ["https://hfu.github.io/openmaptiles-ny/{z}/{x}/{y}.mvt"],
+      "maxzoom": 14
+    }
+  },
+  "layers": [
+    {
+      "id": "water-lines",
+      "type": "line",
+      "source": "openmaptiles-ny",
+      "source-layer": "water",
+      "paint": {
+        "line-color": "#5b92e5"
+      }
+    }
+  ]
+}
