@@ -9,12 +9,12 @@
   },
   "layers": [
     {
-      "id": "water-lines",
-      "type": "line",
+      "id": "water-polygon",
+      "type": "fill",
       "source": "openmaptiles-ny",
       "source-layer": "water",
       "paint": {
-        "line-color": "#5b92e5"
+        "fill-color": "#5b92e5"
       }
     }
   ]
